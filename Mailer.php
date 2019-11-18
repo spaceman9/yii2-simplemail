@@ -18,7 +18,13 @@ class Mailer extends BaseMailer
      */
     protected function sendMessage($message)
     {
-        // Do something with sending mail
+        return mail(
+            $message->getTo(),
+            $message->getSubject(),
+            $message->toString(),
+            $message->getHeaders(),
+            $message->getAdditional()
+        );
     }
 
-}
+} // class Mailer
