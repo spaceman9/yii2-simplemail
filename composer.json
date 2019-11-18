@@ -1,0 +1,23 @@
+{
+    "name": "spaceman9/yii2-simplemail",
+    "description": "Simple Mailer",
+    "keywords": ["yii2", "email"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/spaceman9/yii2-simplemail/issues",
+        "source": "https://github.com/spaceman9/yii2-simplemail"
+    },
+    "authors": [
+        {
+            "name": "Richard Cross",
+            "email": "richard.cross@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.4"
+    },
+    "autoload": {
+        "psr-4": { "spaceman9\\simplemail\\": "" }
+    }
+}
